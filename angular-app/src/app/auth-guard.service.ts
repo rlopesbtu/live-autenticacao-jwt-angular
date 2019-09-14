@@ -15,6 +15,7 @@ export class AuthGuardService implements CanActivate {
             this.router.navigate(['/login']);
             return false;
         }
+        return true;
 
         //esta expirado
         // return this.auth.refresh().pipe(

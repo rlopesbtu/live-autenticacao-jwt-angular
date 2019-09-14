@@ -17,7 +17,6 @@ import { ListComponent } from './pages/list/list.component';
 @NgModule({
     declarations: [
         AppComponent,
-        ListComponent,
         LoginComponent,
         DashboardComponent,
         Pagina2Component
